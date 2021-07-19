@@ -6,6 +6,24 @@ body{
   background-color: black;
 }
 
+.app__body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+.app__container {
+  display: flex;
+  background-color: black;
+  width: 1024px;
+  height: 100%;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
